@@ -1,7 +1,9 @@
+# Threadify - Full-Stack Threads Clone 🧵
+
 <div align="center">
   <br />
-    <a href="https://youtu.be/O5cmLDVTgAs?feature=shared" target="_blank">
-      <img src="https://github.com/adrianhajdin/threads/assets/151519281/a9cd1088-968b-4b1d-b21a-f5f97d0c202b" alt="Project Banner">
+    <a>
+      <img src="https://private-user-images.githubusercontent.com/151519281/293174555-a9cd1088-968b-4b1d-b21a-f5f97d0c202b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjE4Mzg2NjAsIm5iZiI6MTcyMTgzODM2MCwicGF0aCI6Ii8xNTE1MTkyODEvMjkzMTc0NTU1LWE5Y2QxMDg4LTk2OGItNGIxZC1iMjFhLWY1Zjk3ZDBjMjAyYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcyNFQxNjI2MDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kYWY4ZWU2ZDkzNWM3MGExOGMzY2UxZWQ1OGE1ZDc0ZGQ2YTY2NjU5OGU1YTBmOWJhZWI0MTE0NThkY2JiZTU4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.jD-AJvkUAd4haEGuMisDgyrAjeEfZ7vaY7ZRaIUpV0c" alt="Project Banner">
     </a>
   <br />
 
@@ -15,7 +17,6 @@
     <img src="https://img.shields.io/badge/-Typescript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
   </div>
 
-  <h3 align="center">A Full-Stack Threads Clone</h3>
 
 
 </div>
@@ -28,36 +29,33 @@
 4. 🤸 [Quick Start](#quick-start)
 5. 🕸️ [Snippets](#snippets)
 6. 🔗 [Links](#links)
-7. 🚀 [More](#more)
-
-## 🚨 Tutorial
-
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
-
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
-
-<a href="https://youtu.be/O5cmLDVTgAs?feature=shared" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Build a full stack Threads clone using Next.js 14+ with a redesigned look transformed from a Figma design, user interaction to community management, technical implementation, and various features, including nested deep comments, notifications, real-time-search, and more.  
+Threadify is a dynamic and engaging platform designed to facilitate community interactions and discussions through an array of well-integrated features. Leveraging a robust tech stack including Next.js, MongoDB, and TailwindCSS, Threadify offers a visually appealing and high-performance user experience. Key features include comprehensive authentication via Clerk, a visually engaging home page, thread creation and commenting capabilities, and advanced community management tools. The platform supports real-time updates with webhooks, robust data validation with Zod, and efficient form handling with React Hook Form.  Transforming Figma designs into pixel-perfect implementations, Threadify ensures both aesthetic appeal and functional efficiency.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
-
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- Next.js
-- MongoDB
-- Shadcn UI
-- TailwindCSS
-- Clerk
-- Webhooks
-- Serverless APIs
-- React Hook Form
-- Zod
-- TypeScript
+- **Next.js**: Powers server-side rendering and fast page transitions, optimizing performance and SEO.
+
+- **MongoDB**: Manages complex data schemas and scalable storage for threads, comments, and user profiles.
+
+- **Shadcn UI**: Provides a consistent and visually appealing UI component library.
+
+- **TailwindCSS**: Offers utility-first CSS for custom, responsive styling.
+
+- **Clerk**: Handles user authentication with email, password, and social logins, along with profile management.
+
+- **Webhooks**: Enables real-time updates and notifications for user interactions.
+
+- **Serverless APIs**: Manages backend logic and data processing without server management.
+
+- **React Hook Form**: Streamlines form handling and validation.
+
+- **Zod**: Ensures data integrity with schema-based validation.
+
+- **TypeScript**: Adds type safety and improves code quality.
 
 ## <a name="features">🔋 Features</a>
 
@@ -109,7 +107,7 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 and many more, including code architecture and reusability 
 
-## <a name="quick-start">🤸 Quick Start</a>
+## <a name="quick-start">🤸 Quick Start Installation</a>
 
 Follow these steps to set up the project locally on your machine.
 
@@ -1765,25 +1763,21 @@ export function formatThreadCount(count: number): string {
 
 Assets used in the project are [here](https://drive.google.com/file/d/1lg7MMKgXwFabymHi1qxRYMxWVXiZPM9l/view)
 
-## <a name="more">🚀 More</a>
+<div align="center">
+  <br />
+    <a>
+      <img src="image1.png" alt="Project Banner">
+      <img src="image.png" alt="Project Banner">
+    </a>
+  <br />
 
-**Advance your skills with Next.js 14 Pro Course**
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+Contributing
+------------
 
-<a href="https://jsmastery.pro/next14" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/557837ce-f612-4530-ab24-189e75133c71" alt="Project Banner">
-</a>
+If you would like to contribute to the project, feel free to submit a pull request. Please ensure that your changes are in line with the project's coding standards and practices.
 
-<br />
-<br />
+License
+-------
 
-**Accelerate your professional journey with the Expert Training program**
-
-And if you're hungry for more than just a course and want to understand how we learn and tackle tech challenges, hop into our personalized masterclass. We cover best practices, different web skills, and offer mentorship to boost your confidence. Let's learn and grow together!
-
-<a href="https://www.jsmastery.pro/masterclass" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/fed352ad-f27b-400d-9b8f-c7fe628acb84" alt="Project Banner">
-</a>
-
-#
+This project is open-source and available under the [MIT License](https://chat.openai.com/LICENSE).
