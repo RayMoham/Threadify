@@ -1759,7 +1759,7 @@ export function formatThreadCount(count: number): string {
 
 </details>
 
-## <a name="links">🔗 Links</a>
+## <a name="links">🔗 Links & Visuals</a>
 
 Assets used in the project are [here](https://drive.google.com/file/d/1lg7MMKgXwFabymHi1qxRYMxWVXiZPM9l/view)
 
